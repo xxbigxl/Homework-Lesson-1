@@ -1,6 +1,6 @@
 package com.example.tests;
 
-public class AddressData {
+public class ContactData {
 	public String name;
 	public String lastname;
 	public String address;
@@ -12,7 +12,7 @@ public class AddressData {
 	public String address2;
 	public String phone2;
 
-	public AddressData(String name, String lastname,
+	public ContactData(String name, String lastname,
 			String address, String home, String mobile, String work,
 			String email, String byear, String address2, String phone2) {
 		this.name = name;
@@ -27,7 +27,8 @@ public class AddressData {
 		this.phone2 = phone2;
 	}
 	
-	public AddressData() {
+	public ContactData() {
+		
 	}
 	
 }

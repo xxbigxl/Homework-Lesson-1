@@ -11,7 +11,7 @@ public class GroupData {
 		this.footer = footer;
 	}
 	
-	public GroupData() {
+public GroupData() {
 		
 	}
 	
