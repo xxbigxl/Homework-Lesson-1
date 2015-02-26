@@ -1,6 +1,6 @@
 package com.example.tests;
 
-public class FillTheFieldParameter {
+public class AddressData {
 	public String name;
 	public String lastname;
 	public String address;
@@ -12,7 +12,7 @@ public class FillTheFieldParameter {
 	public String address2;
 	public String phone2;
 
-	public FillTheFieldParameter(String name, String lastname,
+	public AddressData(String name, String lastname,
 			String address, String home, String mobile, String work,
 			String email, String byear, String address2, String phone2) {
 		this.name = name;
@@ -27,7 +27,7 @@ public class FillTheFieldParameter {
 		this.phone2 = phone2;
 	}
 	
-	public FillTheFieldParameter() {
+	public AddressData() {
 	}
 	
 }
